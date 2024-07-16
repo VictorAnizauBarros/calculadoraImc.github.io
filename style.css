@@ -175,3 +175,22 @@ form{
 .intermediate{
     color: #FFFF00;
 }
+
+@media screen and (max-width:1024px){
+    #imagem{
+        display: none;
+    }
+}
+@media screen and (max-width:500px){
+    #container{
+        width: 100%;
+        height: 100%;
+    }
+
+    #calculator{
+        width: 100%;
+        height: 100%;
+        border-radius: 0;
+        justify-content: center;
+    }
+}
